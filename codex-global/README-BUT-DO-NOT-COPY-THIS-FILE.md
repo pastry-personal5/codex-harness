@@ -1,6 +1,6 @@
 Codex on 2026-10-22 said:
 
-"""
+```
 I wrote a Codex setup kit for test delegation across your macOS projects:
 
 - Global instructions (codex-global/AGENTS.global.md) tell Codex to delegate validation to test_runner.
@@ -26,5 +26,5 @@ fi
 Start a new Codex session after installation. Check printenv CODEX_HOME first: this session uses /Users/user1/.codex-totonani, while a terminal without that variable uses ~/.codex. These files apply to every project opened with that Codex home. For separate macOS accounts, install them in each account; /etc/codex/config.toml supplies system defaults but is not the documented location for custom agents or global AGENTS.md. OpenAI Docs: subagents (https://learn.chatgpt.com/docs/agent-configuration/subagents), global instructions (https://learn.chatgpt.com/docs/agent-configuration/agents-md), config layers (https://learn.chatgpt.com/docs/config-file/config-basic).
 
 The agent TOML parses, and Swift formatting and SwiftLint passed. The repository’s Swift test run stalled in its service test bundle and was stopped, so that test gate remains unverified.
-"""
+```
 
