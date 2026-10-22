@@ -1,4 +1,4 @@
-Codex on 2026-10-22 said:
+Codex said on 2026-10-22:
 
 ```
 I wrote a Codex setup kit for test delegation across your macOS projects:
